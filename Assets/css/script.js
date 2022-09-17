@@ -12,3 +12,8 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+// Special Characgers
+const symbols="!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
+const numbers="0123456789";
+const alpha="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
