@@ -7,6 +7,7 @@
     <title>Password Generator</title>
     <link rel="stylesheet" href="./Assets/css/reset.css" />
     <link rel="stylesheet" href="./Assets/css/style.css" />
+    <script src="script.js" defer></script>
     <title>Password Generator</title>
   </head>
 
@@ -15,6 +16,47 @@
       <header>
         <h1>Password Generator</h1>
       </header>
+      
+      <!--start of password options form-->
+
+      <form>
+        <h1>Choose Your Password Preferences</h1>
+        <p>
+          <label for="length">Length of Password:</label>
+          <!-- This element has a CSS declaration of `cursor: text` -->
+          <input id="username" type="text" placeholder="First Last" />
+        </p>
+        <p>
+          <label  for="email">E-mail:</label>
+          <input id="email" type="text" placeholder="me@example.com" />
+        </p>
+        <p>
+          <label for="expertise">CSS level of expertise:</label>
+          <!-- This element has a CSS declaration of `appearance: menulist` -->
+          <select id="expertise">
+            <option>Beginner</option>
+            <option selected>Intermediate</option>
+            <option>Advanced</option>
+          </select>
+        </p>
+        <p>
+          <label for="comment">Comment:</label>
+          <textarea id="comment" placeholder="Great article!"></textarea>
+        </p>
+        <p>
+          <input class="checkbox" id="agreement" type="checkbox" />
+          <label for="agreement">I agree to share my e-mail address with The CSS Blog</label>
+        </p>
+        <p>
+          <!-- When this element is in a :focus state, the CSS `outline` property is applied -->
+          <button>Submit</button>
+        </p>
+      </form>
+
+
+
+
+
       <div class="card">
         <div class="card-header">
           <h2>Generate a Password</h2>
@@ -32,7 +74,6 @@
         </div>
       </div>
     </div>
-    <script src="script.js"></script>
+    
   </body>
-
 </html>

@@ -9,7 +9,6 @@
   --text:#fff;
   } 
   
-
 *,
 *::before,
 *::after {
@@ -56,11 +55,11 @@ header {
 }
 
 .card-header::after {
-  content: " ";
+  content: "It's Simple!";
   display: block;
   width: 100%;
   background: var(--text);
-  height: 2px;
+  height: -3px;
 }
 
 .card-body {
@@ -72,15 +71,15 @@ header {
 }
 
 .card-footer::before {
-  content: " ";
+  content: "Click Below!";
   display: block;
   width: 100%;
   background: var(--text);
-  height: 2px;
+  height: 15px;
 }
 
 .card-footer::after {
-  content: " ";
+  content: "You did it!";
   display: block;
   clear: both;
 }

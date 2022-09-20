@@ -98,3 +98,46 @@ You are required to submit the following for review:
 
 - - -
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+----------------------------
+
+//tips:  Look at random numbers, alerts, bootstrap model, can use forms, have to get user input (4 ways - form or alerts and confirms)
+//will need 2 for loops 
+//get booliean  
+
+    var likeMangos = Confirm("do you like magos?") //will get you a true/false
+    var likeMangos = prompt("What is your Name?")  //will get a string
+
+    var pool = "abc" //per TEacher - very important line...need more than abc though
+    pool[Math.floor(Math.random() * (pool.length - 0) + 0)]
+//or use a form (above Generate Password)
+
+//need a random number generator
+ var myName
+
+//Object characters that can be used
+
+
+const symbols = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
+const numbers = "0123456789";
+const letters =  "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+// Assignment Code
+
+
+var generateBtn = document.getElementById("generate");
+// generateBtn.innerText = 'Helloooo!';
+
+console.log(generateBtn.innerText);
+
+// Write password to the #password input
+function writePassword() {
+  var password = generatePassword(Length);
+  
+  var passwordText = document.querySelector("#password");
+  // var passwordLength = <8 =>128;
+  passwordText.value = password;
+
+}
+
+// Add event listener to generate button
+generateBtn.addEventListener("click", writePassword);
