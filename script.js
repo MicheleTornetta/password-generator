@@ -40,12 +40,8 @@ function generatePassword() {
     pool += upperLetters;
   }
   if (likeNumbers) {
-    pool += numbers;}
-   {
-      display: none;
-    }
-
-  console.log(pool);
+    pool += numbers;
+  }
 
   let passwordGeneration = "";
 
