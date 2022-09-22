@@ -1,14 +1,16 @@
-/*colors*/
+/*colors */
 
-:root{
-  --bg:#2f4454;
-  --bttn:#2e1518;
-  --accent1:#da7893;
-  --accent2:#376e6f;
+:root {
+  --bg: #2f4454;
+  --bttn: #2e1518;
+  --accent1: #da7893;
+  --accent2: #376e6f;
   --accent3: #1c3334;
-  --text:#fff;
-  } 
-  
+  --text: #fff;
+}
+
+/*Global Settings */
+
 *,
 *::before,
 *::after {
@@ -21,7 +23,6 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
-  
 }
 
 body {
@@ -42,6 +43,20 @@ header {
   color: var(--text);
 }
 
+/*Hidden customer input form - until Click Here button hit */
+.form {
+  text-align: center;
+  padding: 0 0 10px 0;
+  color: var(--text);
+  display: none;
+}
+
+p {
+  line-height: 24px;
+}
+
+/*Generate A Password box */
+
 .card {
   background-color: var(--accent2);
   border-radius: 5px;
@@ -55,7 +70,7 @@ header {
 }
 
 .card-header::after {
-  content: "It's Simple!";
+  content: "";
   display: block;
   width: 100%;
   background: var(--text);
@@ -71,7 +86,7 @@ header {
 }
 
 .card-footer::before {
-  content: "Click Below!";
+  content: "";
   display: block;
   width: 100%;
   background: var(--text);
@@ -79,7 +94,7 @@ header {
 }
 
 .card-footer::after {
-  content: "You did it!";
+  content: "";
   display: block;
   clear: both;
 }
@@ -88,8 +103,7 @@ header {
   border: none;
   background-color: var(--bttn);
   border-radius: 25px;
-  box-shadow: var(--accent3) 0px 1px 6px 0px var(--accent3) 0px 1px 1px
-    0px;
+  box-shadow: var(--accent3) 0px 1px 6px 0px var(--accent3) 0px 1px 1px 0px;
   color: var(--text);
   display: inline-block;
   font-size: 22px;
@@ -103,6 +117,10 @@ header {
 button[disabled] {
   cursor: default;
   background: #c0c7cf;
+}
+
+.hidden {
+  display: none;
 }
 
 .float-right {
