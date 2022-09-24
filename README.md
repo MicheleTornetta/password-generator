@@ -23,8 +23,8 @@ THEN the password is either displayed in an alert or written to the page
 
 The following images demonstrates the web application's appearance and functionality:
 
-![The portfolio page features headings in blue text, rounded corners on the image placeholder, and various background colors.](./assets/image-1.png)
+[Here is the Password Generator before user clicks on the Start Here button.](./assets/images/PW_Generator1.jpg)
 
-### Background Photo
+[Here is a picture of the Password-Generator form after user clicks on the Start Here button.](./assets/images/PW_Generator2.jpg)
 
-[Picture of the Password-Generator] <a href="https://unsplash.com/backgrounds/cool?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"></a>
+[Here is a picture of the Password-Generator form after user answers the password options questions and clicks the Generate Password button.](./assets/images/PW_Generator3.jpg)
