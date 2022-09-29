@@ -28,3 +28,8 @@ The following images demonstrates the web application's appearance and functiona
 [Here is a picture of the Password-Generator form after user clicks on the Start Here button.](./assets/images/PW_Generator2.jpg)
 
 [Here is a picture of the Password-Generator form after user answers the password options questions and clicks the Generate Password button.](./assets/images/PW_Generator3.jpg)
+
+## Repository & Live Link
+
+[Here is the  repository link.] https://github.com/MicheleTornetta/password-generator
+[Here is the live link.] https://MicheleTornetta.github.io/password-generator/

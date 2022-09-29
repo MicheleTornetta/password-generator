@@ -1,4 +1,4 @@
-//Code to show html form and validate u
+//Code to show html form and validate 
 
 function generatePassword() {
   let generatelengthElement = document.getElementById("pwlength");
@@ -27,6 +27,14 @@ function generatePassword() {
   const numbers = "0123456789";
   const lowerLetters = "abcdefghijklmnopqrstuvwxyz";
   const upperLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+  //confirm number of characters is between 8 and 128
+  let pwlength = "number";
+
+  if (length < 8 || length > 128) {
+      alert ("The Length of Password needs to be between 8 & 128, please try again.");
+      return;
+     } 
 
   //confirm what items the client wanted to use = true
   let pool = "";
