@@ -23,11 +23,11 @@ THEN the password is either displayed in an alert or written to the page
 
 The following images demonstrates the web application's appearance and functionality:
 
-[Here is the Password Generator before user clicks on the Start Here button.](./assets/images/PW_Generator1.jpg)
+[Here is the Password Generator before user clicks on the Start Here button.](./Assets/images/PW_Generator1.jpg)
 
-[Here is a picture of the Password-Generator form after user clicks on the Start Here button.](./assets/images/PW_Generator2.jpg)
+[Here is a picture of the Password-Generator form after user clicks on the Start Here button.](./Assets/images/PW_Generator2.jpg)
 
-[Here is a picture of the Password-Generator form after user answers the password options questions and clicks the Generate Password button.](./assets/images/PW_Generator3.jpg)
+[Here is a picture of the Password-Generator form after user answers the password options questions and clicks the Generate Password button.](./Assets/images/PW_Generator3.jpg)
 
 ## Repository & Live Link
 

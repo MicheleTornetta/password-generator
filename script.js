@@ -34,7 +34,7 @@ function generatePassword() {
   if (length < 8 || length > 128) {
       alert ("The Length of Password needs to be between 8 & 128, please try again.");
       return;
-     } 
+  } 
 
   //confirm what items the client wanted to use = true
   let pool = "";
